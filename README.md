@@ -24,17 +24,16 @@ Automated Test Scenarios
 
 Project Structure
 /mini-ecommerce-qa-demo
-│
-├── index.html # Product listing page
-├── cart.html # Shopping cart page
-├── js/
-│ ├── main.js # Handles product display and cart logic
-│ └── cart.js # Handles cart rendering and removal
-├── data/
-│ └── products.json # Mock product data
-├── cypress/
-│ └── e2e/
-│ └── cart.cy.js # Cypress test cases
-└── README.md
+- index.html # Product listing page
+- cart.html # Shopping cart page
+js/
+-  main.js # Handles product display and cart logic
+- cart.js # Handles cart rendering and removal
+data/
+-  products.json # Mock product data
+cypress/
+- e2e/
+- cart.cy.js # Cypress test cases
+- README.md
 
 
